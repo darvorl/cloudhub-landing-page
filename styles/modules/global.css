@@ -1,0 +1,130 @@
+:root {
+    /* Color Variables */
+    --clr--black--900: #000000;
+    --clr--black--800: #111111;
+    --clr--black--700: #282828;
+    --clr--black--600: #383838;
+    --clr--black--500: #4B4B4B;
+    --clr--black--400: #9D9FA1;
+    --clr--black--300: #BDBDBD;
+    --clr--black--200: #DDDDDD;
+    --clr--black--100: #F2F2F2;
+    --clr--black--50: #F9F9F9;
+    --clr--white: #FFFFFF;
+    --clr--orange--900: #6B250D;
+    --clr--orange--800: #8C3111;
+    --clr--orange--700: #B53F15;
+    --clr--orange--600: #F5551B;
+    --clr--orange--500: #FF591E;
+    --clr--orange--400: #FF591E;
+    --clr--orange--300: #FF591E;
+    --clr--orange--200: #FFB398;
+    --clr--orange--100: #FFCCB9;
+    --clr--orange--50: #FFEEE9;
+
+    font-size: 16px;
+}
+
+* {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Utility Classes */
+
+.logo {
+
+}
+
+/* Container Classes */
+.container-md {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+
+/* Font Classes */
+.text-h1 {
+    font-size: 9rem;
+    font-weight: 600;
+    letter-spacing: -7.5px;
+}
+
+.text-h2 {
+    font-size: 6.875rem;
+    font-weight: 600;
+    letter-spacing: -5.5px;
+}
+
+.text-h3 {
+    font-size: 6.125rem;
+    font-weight: 600;
+    letter-spacing: -4.5px;
+}
+
+.text-h4 {
+    font-size: 5.25rem;
+    font-weight: 600;
+    letter-spacing: -3.5px;
+}
+
+.text-h5 {
+    font-size: 3.93rem;
+    font-weight: 600;
+    letter-spacing: -2.5px;
+}
+
+.text-h6 {
+    font-size: 3.375rem;
+    font-weight: 600;
+    letter-spacing: -1.5px;
+}
+
+.text-h7 {
+    font-size: 2.875rem;
+    font-weight: 600;
+    letter-spacing: -2px;
+}
+
+.text-h8 {
+    font-size: 2.125rem;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+.text-h9 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    letter-spacing: -0.6px;
+}
+
+.text-h10 {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.text-2xlg {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.text-xlg {
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.text-lg {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.text-md {
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+.text-sm {
+    font-size: 0.75rem;
+    font-weight: 700;
+}
