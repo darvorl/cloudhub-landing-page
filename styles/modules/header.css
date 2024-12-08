@@ -1,0 +1,25 @@
+@import "./global.css";
+
+.navbar {
+    padding-block: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar__links {
+    display: flex;
+    margin-left: 70px;
+    gap: 40px;
+}
+
+.navbar__buttons {
+    display: flex;
+    margin-left: auto;
+    gap: 20px;
+}

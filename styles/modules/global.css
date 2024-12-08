@@ -15,9 +15,9 @@
     --clr--orange--800: #8C3111;
     --clr--orange--700: #B53F15;
     --clr--orange--600: #F5551B;
-    --clr--orange--500: #FF591E;
-    --clr--orange--400: #FF591E;
-    --clr--orange--300: #FF591E;
+    --clr--orange--500: #FE5322;
+    --clr--orange--400: #FF7A4B;
+    --clr--orange--300: #FF9068;
     --clr--orange--200: #FFB398;
     --clr--orange--100: #FFCCB9;
     --clr--orange--50: #FFEEE9;
@@ -29,12 +29,47 @@
     font-family: "Inter", sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
 }
 
 /* Utility Classes */
 
 .logo {
+    fill: var(--clr--black--900);
+    transition: 0.3s;
+    cursor: pointer;
+}
 
+.btn {
+    background-color: var(--clr--orange--500);
+    border-radius: 2.5rem;
+    padding: 10px 20px;
+    color: var(--clr--white);
+    text-align: center;
+    width: fit-content;
+}
+
+.btn-white {
+    background-color: var(--clr--white);
+    color: var(--clr--black--700);
+}
+
+.btn-lg {
+    padding: 12px 28px;
+}
+
+.btn-sm {
+    padding: 4px 14px;
 }
 
 /* Container Classes */
@@ -121,10 +156,10 @@
 
 .text-md {
     font-size: 0.875rem;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .text-sm {
     font-size: 0.75rem;
-    font-weight: 700;
+    font-weight: 600;
 }
