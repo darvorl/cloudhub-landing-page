@@ -16,9 +16,11 @@
     display: flex;
     margin-left: 70px;
     gap: 40px;
+    color: var(--clr--black--700);
 }
 
 .navbar__buttons {
+    color: var(--clr--black--700);
     display: flex;
     margin-left: auto;
     gap: 20px;

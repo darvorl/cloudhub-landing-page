@@ -15,7 +15,7 @@
     --clr--orange--800: #8C3111;
     --clr--orange--700: #B53F15;
     --clr--orange--600: #F5551B;
-    --clr--orange--500: #FE5322;
+    --clr--orange--500: #FF591E;
     --clr--orange--400: #FF7A4B;
     --clr--orange--300: #FF9068;
     --clr--orange--200: #FFB398;
@@ -156,7 +156,7 @@ ul {
 
 .text-md {
     font-size: 0.875rem;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .text-sm {
