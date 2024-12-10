@@ -4,6 +4,7 @@
     padding-block: 18px;
     display: flex;
     align-items: center;
+    margin-bottom: 64px;
 }
 
 .navbar a {
