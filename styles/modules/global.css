@@ -1,11 +1,12 @@
 :root {
     /* Color Variables */
-    --clr--black--900: #000000;
-    --clr--black--800: #111111;
+    --clr--black: #000000;
+    --clr--black--900: #111111;
+    --clr--black--800: #171717;
     --clr--black--700: #282828;
     --clr--black--600: #383838;
-    --clr--black--500: #4B4B4B;
-    --clr--black--400: #9D9FA1;
+    --clr--black--500: #525252;
+    --clr--black--400: #5F5F5F;
     --clr--black--300: #BDBDBD;
     --clr--black--200: #DDDDDD;
     --clr--black--100: #F2F2F2;
@@ -81,85 +82,100 @@ ul {
 
 /* Font Classes */
 .text-h1 {
+    text-align: center;
     font-size: 9rem;
     font-weight: 600;
     letter-spacing: -7.5px;
 }
 
 .text-h2 {
+    text-align: center;
     font-size: 6.875rem;
     font-weight: 600;
     letter-spacing: -5.5px;
 }
 
 .text-h3 {
+    text-align: center;
     font-size: 6.125rem;
     font-weight: 600;
     letter-spacing: -4.5px;
 }
 
 .text-h4 {
+    text-align: center;
     font-size: 5.25rem;
     font-weight: 600;
     letter-spacing: -3.5px;
 }
 
 .text-h5 {
+    text-align: center;
     font-size: 3.93rem;
     font-weight: 600;
     letter-spacing: -2.5px;
 }
 
 .text-h6 {
+    text-align: center;
     font-size: 3.375rem;
     font-weight: 600;
     letter-spacing: -1.5px;
 }
 
 .text-h7 {
+    text-align: center;
     font-size: 2.875rem;
     font-weight: 600;
     letter-spacing: -2px;
 }
 
 .text-h8 {
+    text-align: center;
     font-size: 2.125rem;
     font-weight: 600;
     letter-spacing: -1px;
 }
 
 .text-h9 {
+    text-align: center;
     font-size: 1.75rem;
     font-weight: 600;
     letter-spacing: -0.6px;
 }
 
 .text-h10 {
+    text-align: center;
     font-size: 1.25rem;
     font-weight: 600;
 }
 
 .text-2xlg {
+    text-align: center;
     font-size: 1.25rem;
     font-weight: 700;
 }
 
 .text-xlg {
+    text-align: center;
     font-size: 1.125rem;
     font-weight: 700;
 }
 
 .text-lg {
+    text-align: center;
     font-size: 1rem;
     font-weight: 700;
 }
 
 .text-md {
+    text-align: center;
     font-size: 0.875rem;
     font-weight: 600;
 }
 
 .text-sm {
+    text-align: center;
     font-size: 0.75rem;
     font-weight: 600;
 }
