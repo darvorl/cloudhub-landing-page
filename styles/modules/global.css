@@ -9,9 +9,10 @@
     --clr--black--400: #5F5F5F;
     --clr--black--300: #BDBDBD;
     --clr--black--200: #DDDDDD;
-    --clr--black--100: #F2F2F2;
-    --clr--black--50: #F9F9F9;
+    --clr--black--100: #F6F6F6;
+    --clr--black--50: #FAFAFA;
     --clr--white: #FFFFFF;
+    --clr--pale-blue: #5F6980;
     --clr--orange--900: #6B250D;
     --clr--orange--800: #8C3111;
     --clr--orange--700: #B53F15;
@@ -45,6 +46,12 @@ a {
 
 ul {
     list-style: none;
+}
+
+img {
+    max-width: 100%;
+    width: 660px;
+    height: auto;
 }
 
 /* Utility Classes */

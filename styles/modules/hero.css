@@ -1,14 +1,14 @@
 .hero {
-    top: 20%;
-    left: 50%;
-    transform: translate(-50%, 0);
-    position: absolute;
-    width: 100%;
-    height: 750px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-image: url('../../assets/hero__img.png');
+    /*top: 20%;*/
+    /*left: 50%;*/
+    /*transform: translate(-50%, 0);*/
+    /*position: absolute;*/
+    /*width: 100%;*/
+    /*height: 750px;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    /*background-position: center;*/
+    /*background-image: url('../../assets/hero__img.png');*/
 }
 
 .hero__content {
@@ -52,6 +52,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-block: 32px;
 }
 
 .hero__brand-slider > svg {
