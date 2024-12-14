@@ -1,20 +1,20 @@
-.designers {
+.progress {
     display: flex;
     flex-direction: column;
     gap: 40px;
     padding-block: 112px;
 }
 
-.designers h2 {
+.progress h2 {
     color: var(--clr--black--700);
 }
 
-.designers__visual {
+.progress__visual {
     display: flex;
     gap: 32px;
 }
 
-.designers__card {
+.progress__card {
     background-color: var(--clr--black--200);
     border-radius: 8px;
     padding-top: 50px;
@@ -28,22 +28,22 @@
     justify-content: space-between;
 }
 
-.designers__card img {
+.progress__card img {
     width: 440px;
 }
 
-.designers__card__heading {
+.progress__card__heading {
     display: flex;
     flex-direction: column;
     gap: 4px;
 }
 
-.designers__card__heading h4 {
+.progress__card__heading h4 {
     color: var(--clr--black--800);
     font-weight: 500;
 }
 
-.designers__card__heading p {
+.progress__card__heading p {
     color: var(--clr--black--500);
     font-weight: 400;
 }
