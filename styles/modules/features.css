@@ -6,7 +6,7 @@
     'opsz' 24
 }
 
-.features__share {
+.features-section {
     display: flex;
     align-items: center;
     padding-block: 88px;
@@ -71,6 +71,14 @@
 }
 
 .features__share img {
+    background-color: var(--clr--black--50);
+    border-radius: 24px;
+}
+
+.features__feedback {
+    flex-direction: row-reverse;
+}
+.features__feedback img {
     background-color: var(--clr--black--50);
     border-radius: 24px;
 }
