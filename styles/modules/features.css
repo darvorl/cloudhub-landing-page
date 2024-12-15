@@ -141,3 +141,7 @@
     color: var(--clr--black--300);
     text-align: start;
 }
+
+.best-time__heading p {
+    font-weight: 600;
+}
